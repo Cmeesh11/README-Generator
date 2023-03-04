@@ -22,6 +22,7 @@ function init() {
     {
       type: "input",
       message: questions[0],
+      default: "Unnamed Project",
       name: "title"
     },
     {
@@ -32,6 +33,7 @@ function init() {
     {
       type: "input",
       message: questions[2],
+      default: "None",
       name: "installation"
     },
     {
@@ -42,11 +44,13 @@ function init() {
     {
       type: "input",
       message: questions[4],
+      default: "Developers can contribute to this project by targeting an area of improvement, and creating a pull request to resolve the issue.",
       name: "contribution"
     },
     {
       type: "input",
       message: questions[5],
+      default: "To run this program, navigate to the root directory and run 'node index.js` in the command line",
       name: "test"
     },
     {
