@@ -1,6 +1,7 @@
 // Importing required packages
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 // Created an array of questions for use in the command line
 const questions = [
   "What is the title of your project?",
@@ -12,9 +13,8 @@ const questions = [
 ];
 
 // Creates a readme file with inputted data
-function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data);
-
+function writeToFile(fileName, data, err) {
+  fs.writeFile(fileName, data, err);
 }
 // Starts the program
 function init() {
@@ -50,7 +50,8 @@ function init() {
       name: "test"
     }
   ]).then((response) => {
-    writeToFile("README.md", )
+    let markdown = generateMarkdown(response);
+    writeToFile("README.md", markdown, (err) => err ? console.log(error) : console.log("Success!"));
   })
 }
 
