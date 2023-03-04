@@ -48,6 +48,12 @@ function init() {
       type: "input",
       message: questions[5],
       name: "test"
+    },
+    {
+      type: "list",
+      message: "Choose a license: ",
+      choices: ["The MIT License", "Mozilla Public License 2.0", "Apache 2.0 License", "GNU GPL v3"],
+      name: "license"
     }
   ]).then((response) => {
     let markdown = generateMarkdown(response);
