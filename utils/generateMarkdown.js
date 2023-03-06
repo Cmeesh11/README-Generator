@@ -82,6 +82,9 @@ function generateMarkdown(response) {
   ## Tests
   ${response.test}
   ## Questions
+  Github: https://github.com/Cmeesh11  
+  
+  Email: cartermeesh11@gmail.com  
   `;
 }
 
