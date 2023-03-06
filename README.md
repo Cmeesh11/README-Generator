@@ -14,3 +14,5 @@ This application can be run using the command line. Once you have downloaded the
 Answer the series of prompts displayed in the terminal. Once complete, a README.md file should be generated within the README-Generator directory.
 
 ## Video Walkthrough
+
+https://drive.google.com/file/d/16ewo47aTO5ff00vYKmAgAOUQzAkK3LAx/view
