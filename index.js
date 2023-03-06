@@ -61,7 +61,7 @@ function init() {
     }
   ]).then((response) => {
     let markdown = generateMarkdown(response);
-    writeToFile("README.md", markdown, (err) => err ? console.log(error) : console.log("Success!"));
+    writeToFile("newREADME.md", markdown, (err) => err ? console.log(error) : console.log("Success!"));
   })
 }
 

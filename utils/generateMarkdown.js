@@ -69,7 +69,7 @@ function generateMarkdown(response) {
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contributing](#contributing)
   - [License](#license)
   ## Installation
   ${response.installation}
@@ -83,7 +83,7 @@ function generateMarkdown(response) {
   ${response.test}
   ## Questions
   Github: https://github.com/Cmeesh11  
-  
+
   Email: cartermeesh11@gmail.com  
   `;
 }
