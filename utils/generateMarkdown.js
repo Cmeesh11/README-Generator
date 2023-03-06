@@ -78,7 +78,7 @@ function generateMarkdown(response) {
   ## License
   ${renderLicenseSection(response.license)}
   ## Contributing
- 
+  ${response.contribution}
   ## Tests
   ${response.test}
   ## Questions

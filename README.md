@@ -8,7 +8,9 @@ Similar to how text editors offer autofill functionality (i.e. HTML skeletons), 
 
 ## Usage
 
-This application can be run using the command line. Once you have downloaded the repository, navigate to the README-Generator directory and run ```node index.js```.
+This application can be run using the command line. Once you have downloaded the repository, navigate to the README-Generator directory and run  
+```node index.js```.  
+
 Answer the series of prompts displayed in the terminal. Once complete, a README.md file should be generated within the README-Generator directory.
 
 ## Video Walkthrough
